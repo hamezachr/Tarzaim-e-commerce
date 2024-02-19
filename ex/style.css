@@ -1,0 +1,19 @@
+.categories {
+    width: 300px;
+    margin: 0 auto;
+   }
+   
+   .list {
+    display: none;
+    width: 300px;
+    margin: 20px auto;
+   }
+   
+   .list ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   .list li {
+    margin-bottom: 10px;
+   }

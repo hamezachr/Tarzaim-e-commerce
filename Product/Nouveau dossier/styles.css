@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+.price {
+    margin: 0 0 0 80%;
+    font-size: 1.5rem;
+    color: #e51e1a;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-to-cart {
+    margin: 0 0 0 40%;
+    background-color: #e51e1a;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.add-to-cart:hover {
+    background-color: #b80e08;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.features {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    list-style-type: none;
+    padding: 0;
+}
